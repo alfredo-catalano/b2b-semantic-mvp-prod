@@ -1,2 +1,2 @@
-# b2b-semantic-mvp-prod
-AI assistant with MCP for B2B contract data.
+# B2B Semantic MVP
+An AI assistant using Rasa and MCP to fetch contract data live from a mock CRM.
