@@ -1,0 +1,12 @@
+flows:
+  greet_flow:
+    steps:
+      - intent: greet
+      - action: utter_greet
+  contract_status_flow:
+    steps:
+      - intent: ask_contract_status
+      - action: utter_ask_contract_id
+      - slot: contract_id
+      - action: utter_contract_status
+      - action: action_get_contract_status
