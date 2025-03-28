@@ -1,0 +1,7 @@
+{
+  "name": "B2B Semantic MVP",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [5005, 8000],
+  "postCreateCommand": "pip install -r requirements.txt && rasa train",
+  "remoteUser": "root"
+}
