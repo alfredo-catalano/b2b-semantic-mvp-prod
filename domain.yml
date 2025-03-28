@@ -1,0 +1,17 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_contract_status
+slots:
+  contract_id:
+    type: text
+    influence_conversation: false
+responses:
+  utter_greet:
+    - text: "Hello! Contract Agent (CA001) here. How can I assist you?"
+  utter_ask_contract_id:
+    - text: "Contract Agent (CA001): Please provide your contract ID."
+  utter_contract_status:
+    - text: "Let me check that for you..."
+actions:
+  - action_get_contract_status
