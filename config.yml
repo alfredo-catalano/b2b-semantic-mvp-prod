@@ -1,0 +1,9 @@
+language: en
+pipeline:
+  - name: SpacyNLP
+    model: "en_core_web_md"
+  - name: SpacyTokenizer
+  - name: CALMConversationPolicy
+policies:
+  - name: FlowPolicy
+    flows: "data/flows.yml"
