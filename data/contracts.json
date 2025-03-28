@@ -1,0 +1,7 @@
+{
+  "contracts": [
+    {"id": "C123", "status": "Active", "signed_date": "2025-01-15"},
+    {"id": "C456", "status": "Pending", "signed_date": "2025-02-01"},
+    {"id": "C789", "status": "Expired", "signed_date": "2024-12-01"}
+  ]
+}
